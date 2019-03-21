@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Search</title>
+    <link rel="stylesheet" type="text/css" href="Search Page.css">
+    
+
+</head>
+<body>
+
+    
+    
+    <section class="sec">
+        <button class="collapsible">Categories</button>
+        <div class="content">
+            <label class="container">
+                Audio & Music
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                Games
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                File Management
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                Home & Family
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                Office & Productivity
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                Photos & Graphics
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                Videos & Movies 
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+        </div>
+    </section>
+
+
+
+    <section class="sec">
+        <button class="collapsible">Hardware Platforms</button>
+        <div class="content">
+            <label class="container">
+                Desktop
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                Mobile
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                TV
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                Console
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                Tablet
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+    </section>
+
+    <section class="sec">
+        <button class="collapsible">Software Platforms </button>
+        <div class="content">
+            <label class="container">
+                Windows
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                Linux
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                IOS
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                Android
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+    </section>
+
+    <div class="custom-select" style="width:200px;">
+        <select>
+            <option value="0">Select Size(Mb):</option>
+            <option value="1">50 - 100</option>
+            <option value="2">100 - 200</option>
+            <option value="3">200 - 300</option>
+            <option value="4">300 - 400</option>
+         
+        </select>
+    </div>
+
+    <section class="sec">
+        <button class="collapsible">Designed in: </button>
+        <div class="content">
+            <label class="container">
+                Python
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                Java
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                C/C++
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                Ruby
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+    </section>
+
+    <button class="button">Search</button>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length ; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>
