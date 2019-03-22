@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 article, aside, footer, header, main, nav, section {
     display: block;
@@ -6,70 +6,70 @@ article, aside, footer, header, main, nav, section {
 
 /* Customize the label (the container) */
 .container {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 17px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-/* Hide the browser's default checkbox */
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
+    /* Hide the browser's default checkbox */
+    .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
 
 /* Create a custom checkbox */
 .checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
 }
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
-  background-color: #ccc;
+    background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: #2196F3;
+    background-color: #2196F3;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
+    content: "";
+    position: absolute;
+    display: none;
 }
 
 /* Show the checkmark when checked */
 .container input:checked ~ .checkmark:after {
-  display: block;
+    display: block;
 }
 
 /* Style the checkmark/indicator */
 .container .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
- // -webkit-transform: rotate(45deg);
- // -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 
@@ -79,12 +79,9 @@ article, aside, footer, header, main, nav, section {
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: 4px solid #1C6EA4;
-    border-radius: 19px;
+    border-bottom: 4px solid #1C6EA4;
     text-align: left;
-    // outline: none;
     font-size: 25px;
-    margin-right: 1300px;
     font-weight: bold;
 }
 
@@ -104,13 +101,13 @@ article, aside, footer, header, main, nav, section {
     font-weight: bold;
 }
 
-.sec{
-    margin-right:850px;
-    margin-top:30px;
-    position:center;
-    left: 100px;
+.sec {
+    margin-top: 30px;
+    position: center;
     position: relative;
-    
+    width: 700px;
+    margin-left: 70px;
+    border: 4px solid #1C6EA4;
 }
 
 select {
@@ -118,9 +115,8 @@ select {
     font-size: 25px;
     border: 4px solid #1C6EA4;
     padding: 10px;
-    border-radius: 19px;
     background-color: #eee;
-    left: 100px;
+    margin-left: 70px;
     position: relative;
     font-weight: bold;
 }
@@ -138,12 +134,14 @@ select {
     border-radius: 15px;
     box-shadow: 0 9px #999;
     margin-top: 80px;
-    position: fixed;
-    right: 360px;
+    margin-left: 1000px;
+    position: relative;
+    margin-bottom:10px;
 }
 
     .button:hover {
         background-color: red;
+     
     }
 
     .button:active {
