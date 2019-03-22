@@ -110,7 +110,7 @@ body {
   margin-top: .4375rem;
   margin-bottom: 0;
 }
-.products__btn {
+.products__button {
   display: inline-block;
   font-size: .875em;
   color: #777;
@@ -121,7 +121,7 @@ body {
   cursor: pointer;
   border-radius: 4px;
 }
-.products__btn i.fa {
+.products__button i.fa {
   margin-right: .3125rem;
 }
 .products__download {
