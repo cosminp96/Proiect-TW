@@ -1,0 +1,100 @@
+body{
+	margin:0;
+	padding:0;
+	background: url(img/background.jpg);
+	background-size: cover;
+	background-position: center; 
+}
+.formbox{
+	width: 520px;
+	height: 680px;
+	background-image:linear-gradient(#a2bae5,#afc4ea,#bcc9e0,#ced5e2);
+	color: #1b2235;
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform: translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:70px 30px;
+	border-radius:20%;
+}
+.avatar{
+	width:180px;
+	height:130px;
+	border-radius:50%;
+	position:absolute;
+	top:-50px;
+	left:174px;
+}
+h1{
+	
+	font-family: Georgia,serif;
+font-size: 35px;
+letter-spacing: 2.8px;
+word-spacing: 0.2px;
+color: #000000;
+font-weight: normal;
+font-variant: small-caps;
+text-transform: lowercase;
+}
+.formbox p{
+	margin:0;
+	padding:0 0 3px;
+	font-size:20px;
+} 
+.formbox input{
+	width:100%;
+	margin-bottom:20px;
+}
+.loginbox input[type="text"]
+{
+	border:none
+border-bottom:1px solid #fff;
+background:transparent;
+outline:none;
+height:40px;
+color:#fff;
+font-size:16px;
+
+}
+.formbox input[type="submit"]
+{
+	border:none;
+	outline:none;
+	background: #fb2525;
+	color:#fff;
+	font-size: 18px;
+	border-radius:20px;
+	margin-top: 30px;
+}
+.formbox input[type="submit"]:hover
+{
+cursor:pointer;
+background:#ffc107;
+color:#000;
+	
+}
+select{
+	margin:8px;
+	border:none;
+border-bottom:1px solid #fff;
+background:#transparent;
+outline:none;
+height:30px;
+font-size:16px;
+
+}
+#description{
+	margin:8px;
+	border:none;
+border-bottom:1px solid #fff;
+background:#transparent;
+outline:none;
+height:50px;
+font-size:16px;
+	
+
+}
+
+
+
