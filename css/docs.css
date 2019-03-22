@@ -1,0 +1,54 @@
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 100px auto;
+}
+
+.columns {
+  float: left;
+  width: 50%;
+}
+
+.soft-wrapper {
+  margin: 0 auto;
+  width: 350px;
+}
+.soft-wrapper .soft-image {
+  padding-top: 30px;
+  transition: all 0.5s ease;
+}
+.soft-wrapper .soft-image:hover {
+  transform: scale(1.1);
+}
+
+.soft-info h2 {
+  padding-bottom: 15px;
+  font-size: 32px;
+  border-bottom: 1px solid #d9d9d9;
+}
+.soft-info .description {
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.button {
+  display: inline-block;
+  margin-top: 35px;
+  padding: 12px 25px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #505050;
+  color: white;
+  transition: 0.25s ease;
+}
+
+.button:hover {
+  background-color: #323232;
+}
