@@ -44,6 +44,7 @@ body {
 .products__product:hover {
   box-shadow: 0px 0px 0px 1px #eee;
   z-index: 50;
+  transform: scale(1.1);
 }
 .products__product:hover .products__extend {
   display: block;
