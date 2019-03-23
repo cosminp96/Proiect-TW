@@ -1,7 +1,10 @@
 body{
 	margin:0;
 	padding:0;
-	background: url(img/background.jpg);
+	background-image: url("background.jpg");
+/*	filter: blur(1px);
+	-webkit-filter: blur(1px);*/
+	background:#55d6aa;
 	background-size: cover;
 	background-position: center; 
 }
@@ -10,7 +13,7 @@ body{
 	height: 680px;
 	background-image:linear-gradient(#a2bae5,#afc4ea,#bcc9e0,#ced5e2);
 	color: #1b2235;
-	top:50%;
+	top:75%;
 	left:50%;
 	position:absolute;
 	transform: translate(-50%,-50%);
